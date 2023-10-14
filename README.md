@@ -15,17 +15,17 @@ for the models as well as interpretation of results.
 
 ### Modeling
 
-I started with a dummy model then built logistic regression and gridsearch models and tuned them to further improve results. This inclutes increasing tolerance and iterations for the logistic regression model as well as heavy tweaking to the parameters of the gridsearch model.
+I started with a dummy model then built logistic regression and gridsearch models and tuned them to further improve results. This includes increasing tolerance and iterations for the logistic regression model as well as heavy tweaking to the parameters of the gridsearch model.
 
 ### Evaluation
 
 Overall the model performs well but some more tweaking is necessary for a better picture of when customers will churn.
-Right now the model does a fantastic job determining when someone will stay with our service however there is a lot of room for imporvement in predicting when they will leave.
+Right now the model does a fantastic job determining when someone will stay with our service however there is some room for imporvement in predicting when they will leave.
 
 
 ### Conclusion
 
-When retraining the model steps will be taken to improve recall.  These include seperating the call, charge, and minutes columns into each of their own dataframes then scaling each individually.  I will also make use of the location data.  
+When retraining the model steps will be taken to improve recall. I will also make use of the location data in the ML model rather than just the analysis.  
 
 
 ### Deliverables
